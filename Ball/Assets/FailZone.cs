@@ -4,11 +4,12 @@ using UnityEngine;
 
 public class FailZone : MonoBehaviour
 {
-    void OnTriggerEnter(Collider collider)
+    void OnTriggerEnter(Collider collider) // FailZone 에 떨어졌다
     {
         if(collider.gameObject.name == "Ball")  // Ball이라는 오브젝트인 경우
         {
-            Application.LoadLevel("Game");  // unity파일을 저장할 때 Game이라는 이름으로 저장했기 때문
+            GameObject.Find("GameManager").SendMessage("RestartGame");  
+            // 게임 오브젝트 중 게임 매니저라는 것을 찾아 메세지 보냄
             // "Game" 판을 다시 시작한다
         }
     }
