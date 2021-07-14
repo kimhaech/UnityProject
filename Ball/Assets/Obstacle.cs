@@ -20,7 +20,7 @@ public class Obstacle : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    protected void Update() // 자식 클래스에서 호출 가능
     {
         float newXPosition = transform.localPosition.x + delta;
         transform.localPosition = new Vector3(newXPosition, transform.localPosition.y, transform.localPosition.z);

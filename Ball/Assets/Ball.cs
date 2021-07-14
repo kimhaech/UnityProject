@@ -8,7 +8,7 @@ public class Ball : MonoBehaviour // Ball -> 클래스의 이름 , MonoBehaviour -> 유
     float startingPoint;
 
     // Method
-    // Start is called before the first frame update 시작될 때
+    // Start is called before the first frame update 시작될 때 
     void Start()
     {
         startingPoint = transform.position.z;
@@ -23,6 +23,13 @@ public class Ball : MonoBehaviour // Ball -> 클래스의 이름 , MonoBehaviour -> 유
         if (Input.GetKeyDown(KeyCode.Space))
         {
             GetComponent<Rigidbody>().AddForce(Vector3.up*300);
+            
+            /* Rigidbody ballRigid;
+             * ballRigid = gameObject.GetComponent<Rigidbody>();
+             * ballRigid.AddForce(Vector3.up*300);
+             * 위 코드와 같은 기능
+             * ballRigid.mass -> mass는 rigidbody가 가지는 질량을 뜻함
+             */
         }
     }
 }

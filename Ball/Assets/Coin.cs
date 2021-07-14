@@ -8,6 +8,7 @@ public class Coin : MonoBehaviour
     {
         if(col.gameObject.name == "Ball")
         {
+            GameObject.Find("GameManager").SendMessage("GetCoin");
             Destroy(gameObject); // 스크립트가 추가되어있는 게임 오브젝트를 뜻한다.
         }
     }
