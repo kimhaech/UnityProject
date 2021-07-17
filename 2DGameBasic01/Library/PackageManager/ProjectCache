@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637620371392790445
-    m_Hash: 958562012
+      ticks: 637618536119101306
+    m_Hash: 606984132
   m_LockFileStatus:
     m_FilePath: C:/Users/epicl/Documents/GitHub/UnityProject/2DGameBasic01/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637620371392790445
-    m_Hash: 3837228285
+      ticks: 637618536435096169
+    m_Hash: 740463830
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
@@ -629,6 +629,8 @@ m_PackageAssets:
         - 1.3.9
         - 1.4.9
         - 1.5.7
+        - 1.6.0
+        - 1.7.1
         - 2.0.0-preview.6
         - 2.0.0-preview.8
         - 2.0.0-preview.15
@@ -641,6 +643,7 @@ m_PackageAssets:
         - 2.1.0-preview.6
         compatible:
         - 1.5.7
+        - 1.6.0
         - 2.0.0-preview.6
         - 2.0.0-preview.8
         - 2.0.0-preview.15
