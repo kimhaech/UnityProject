@@ -5,22 +5,41 @@ using UnityEngine;
 public class ObjectSpawner : MonoBehaviour
 {
     [SerializeField]
-    private GameObject boxPrefab;
+    private int objectSpawnCount = 30;  // 생성 할 오브젝트의 개수
+    [SerializeField]
+    private GameObject[] prefabArray;   // prefab의 배열
+    [SerializeField]
+    private Transform[] spawnPointArray;    // 위치값을 가진다
+    private int currentObjectCount = 0; // 현재까지 생성한 오브젝트 개수
+    private float objectSpawnTime = 0.0f;
 
-    private void Awake()
+    private void Update()
     {
-        /*  Instantiate(boxPrefab, new Vector3(3, 3, 0), Quaternion.identity); // 게임오브젝트(프리팹)를 복제해서 생성
-            Instantiate(boxPrefab, new Vector3(-1, -2, 0), Quaternion.identity); */
-        //Instantiate(boxPrefab, new Vector3(2, 1, 0), rotation);
-        Quaternion rotation = Quaternion.Euler(0, 0, 45);
 
-        GameObject clone = Instantiate(boxPrefab, Vector3.zero, rotation);
+        if(objectSpawnCount < currentObjectCount + 1)   // 최대 생성 개수만큼 생성할 수 있도록
+        {
+            return;
+        }
 
-        clone.name = "Box001";  // 이름 설정
+        // 원하는 시간마다 오브젝트 생성하도록 하는 연산
+        objectSpawnTime += Time.deltaTime;  // 실제 초와 동일하게 실행
         
-        clone.GetComponent<SpriteRenderer>().color = Color.black;   //black 색상 설정
+        // 0.5초마다 실행
+        if(objectSpawnTime >= 0.5f)
+        {
+            int prefabIndex = Random.Range(0, prefabArray.Length);
+            int spawnIndex = Random.Range(0, spawnPointArray.Length);
 
-        clone.transform.position = new Vector3(2, 1, 0);    // 위치
-        clone.transform.localScale = new Vector3(3, 2, 1);  // 크기
+            Vector3 position = spawnPointArray[spawnIndex].position;
+            GameObject clone = Instantiate(prefabArray[prefabIndex], position, Quaternion.identity);
+
+            // spawnIndex가 1 -> 오브젝트가 왼쪽에 있기 때문에 오른쪽으로 이동
+            Vector3 moveDirection = (spawnIndex == 1 ? Vector3.right : Vector3.left);
+            clone.GetComponent<Movement2D>().Setup(moveDirection);
+
+            currentObjectCount++;   // 현재 오브젝트 개수 증가
+            objectSpawnTime = 0.0f; // 시간 초기화 -> 0.5초를 계산을 위해서
+        }
     }
 }
+ 
