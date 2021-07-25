@@ -9,18 +9,22 @@ public class ObjectSpawner : MonoBehaviour
 
     private void Awake()
     {
-        /*  Instantiate(boxPrefab, new Vector3(3, 3, 0), Quaternion.identity); // 게임오브젝트(프리팹)를 복제해서 생성
-            Instantiate(boxPrefab, new Vector3(-1, -2, 0), Quaternion.identity); */
-        //Instantiate(boxPrefab, new Vector3(2, 1, 0), rotation);
-        Quaternion rotation = Quaternion.Euler(0, 0, 45);
+/*        for (int i = 0; i < 10; ++i)
+        {
+            Vector3 position = new Vector3(-4.5f + i, 0, 0);
+            Quaternion rotation = Quaternion.Euler(0, 0, i * 10);
 
-        GameObject clone = Instantiate(boxPrefab, Vector3.zero, rotation);
+            Instantiate(boxPrefab, position, rotation);
+        }*/
 
-        clone.name = "Box001";  // 이름 설정
-        
-        clone.GetComponent<SpriteRenderer>().color = Color.black;   //black 색상 설정
+        for(int y = 0; y < 10; ++y)
+        {
+            for (int x = 0; x < 10; ++x)
+            {
+                Vector3 position = new Vector3(-4.5f + x, 4.5f - y, 0);
 
-        clone.transform.position = new Vector3(2, 1, 0);    // 위치
-        clone.transform.localScale = new Vector3(3, 2, 1);  // 크기
+                Instantiate(boxPrefab, position, Quaternion.identity);
+            }
+        }
     }
 }
