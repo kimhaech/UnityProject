@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637618536119101306
-    m_Hash: 606984132
+      ticks: 637620371392790445
+    m_Hash: 958562012
   m_LockFileStatus:
     m_FilePath: C:/Users/epicl/Documents/GitHub/UnityProject/2DGameBasic01/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637618536435096169
-    m_Hash: 740463830
+      ticks: 637620371392790445
+    m_Hash: 3837228285
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:

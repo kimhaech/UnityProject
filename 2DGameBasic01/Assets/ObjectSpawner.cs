@@ -15,6 +15,24 @@ public class ObjectSpawner : MonoBehaviour
 
     private void Update()
     {
+<<<<<<< HEAD
+/*        for (int i = 0; i < 10; ++i)
+        {
+            Vector3 position = new Vector3(-4.5f + i, 0, 0);
+            Quaternion rotation = Quaternion.Euler(0, 0, i * 10);
+
+            Instantiate(boxPrefab, position, rotation);
+        }*/
+
+        for(int y = 0; y < 10; ++y)
+        {
+            for (int x = 0; x < 10; ++x)
+            {
+                Vector3 position = new Vector3(-4.5f + x, 4.5f - y, 0);
+
+                Instantiate(boxPrefab, position, Quaternion.identity);
+            }
+=======
 
         if(objectSpawnCount < currentObjectCount + 1)   // 최대 생성 개수만큼 생성할 수 있도록
         {
@@ -39,6 +57,7 @@ public class ObjectSpawner : MonoBehaviour
 
             currentObjectCount++;   // 현재 오브젝트 개수 증가
             objectSpawnTime = 0.0f; // 시간 초기화 -> 0.5초를 계산을 위해서
+>>>>>>> 05a15e54780749b97d7e192b8415de9abb4b8cc4
         }
     }
 }
