@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.14f1 (d0d1bb862f9d) revision 13685179'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Education; OS build 19042.1110; Version 2009; 64bit' Language: 'ko' Physical Memory: 7541 MB
+OS: 'Windows 10 Enterprise; OS build 19042.1110; Version 2009; 64bit' Language: 'ko' Physical Memory: 16296 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -11,113 +11,113 @@ C:\Program Files\Unity\Hub\Editor\2020.3.14f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/epicl/Documents/GitHub/UnityProject/2D Animation
+C:/Users/epicl/Documents/GitHub/UnityProject/2DAnimation
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-13235
-Successfully changed project path to: C:/Users/epicl/Documents/GitHub/UnityProject/2D Animation
-C:/Users/epicl/Documents/GitHub/UnityProject/2D Animation
+3814
+Successfully changed project path to: C:/Users/epicl/Documents/GitHub/UnityProject/2DAnimation
+C:/Users/epicl/Documents/GitHub/UnityProject/2DAnimation
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 128.02 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 36.22 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.14f1 (d0d1bb862f9d)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.14f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/epicl/Documents/GitHub/UnityProject/2D Animation/Assets
+[Subsystems] Discovering subsystems at path C:/Users/epicl/Documents/GitHub/UnityProject/2DAnimation/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: AMD Radeon(TM) Graphics (ID=0x1636)
+    Renderer: NVIDIA GeForce GTX 1660 SUPER (ID=0x21c4)
     Vendor:   
-    VRAM:     3770 MB
-    Driver:   27.20.15002.118
+    VRAM:     5991 MB
+    Driver:   27.21.14.6172
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.14f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.14f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56072
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56876
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004199 seconds.
+Registered in 0.001984 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 107.12 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 35.69 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.631 seconds
+- Completed reload, in  0.894 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2632ms)
-		BeginReloadAssembly (187ms)
+	ReloadAssembly (894ms)
+		BeginReloadAssembly (57ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (2ms)
-		EndReloadAssembly (965ms)
-			LoadAssemblies (179ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (371ms)
+			LoadAssemblies (54ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (305ms)
+			SetupTypeCache (133ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (79ms)
-			SetupLoadedEditorAssemblies (411ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (145ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (11ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (107ms)
-				BeforeProcessingInitializeOnLoad (25ms)
-				ProcessInitializeOnLoadAttributes (199ms)
-				ProcessInitializeOnLoadMethodAttributes (68ms)
+				RefreshPlugins (36ms)
+				BeforeProcessingInitializeOnLoad (12ms)
+				ProcessInitializeOnLoadAttributes (68ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.016459 seconds.
+Registered in 0.004041 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 112.42 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 34.00 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.781 seconds
+- Completed reload, in  1.011 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2784ms)
-		BeginReloadAssembly (291ms)
+	ReloadAssembly (1011ms)
+		BeginReloadAssembly (135ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (11ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (31ms)
-		EndReloadAssembly (2315ms)
-			LoadAssemblies (238ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (819ms)
+			LoadAssemblies (90ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (725ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (119ms)
-			SetupLoadedEditorAssemblies (882ms)
+			SetupTypeCache (264ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (311ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (12ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (113ms)
-				BeforeProcessingInitializeOnLoad (265ms)
-				ProcessInitializeOnLoadAttributes (431ms)
-				ProcessInitializeOnLoadMethodAttributes (35ms)
-				AfterProcessingInitializeOnLoad (24ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (34ms)
+				BeforeProcessingInitializeOnLoad (83ms)
+				ProcessInitializeOnLoadAttributes (173ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (15ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.14 seconds
-Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.40 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2084 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 92.9 MB.
 System memory in use after: 92.8 MB.
 
 Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 2517.
-Total: 3.487400 ms (FindLiveObjects: 0.256600 ms CreateObjectMapping: 0.060800 ms MarkObjects: 2.839100 ms  DeleteObjects: 0.327300 ms)
+Total: 2.062400 ms (FindLiveObjects: 0.188300 ms CreateObjectMapping: 0.083200 ms MarkObjects: 1.681600 ms  DeleteObjects: 0.108500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -131,184 +131,456 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Unity 2DGame Basic [05][Resources]/PlayerLifeUI.png
-  artifactKey: Guid(7c9a849cb50a79b49b5f7b76f18722dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity 2DGame Basic [05][Resources]/PlayerLifeUI.png using Guid(7c9a849cb50a79b49b5f7b76f18722dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad923b230f92015e959af7520b22cc5d') in 0.280160 seconds 
-  Import took 0.286968 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000342 seconds.
-  path: Assets/Unity 2DGame Basic [05][Resources]/Meteorite.png
-  artifactKey: Guid(7c5b4290348dbfd48aa1cb5433d44d38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity 2DGame Basic [05][Resources]/Meteorite.png using Guid(7c5b4290348dbfd48aa1cb5433d44d38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e40697d1c334fc0352d08ca2820afafa') in 0.023082 seconds 
-  Import took 0.032319 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000397 seconds.
-  path: Assets/Unity 2DGame Basic [05][Resources]/Explosion.png
-  artifactKey: Guid(c30dccad6a813644fb7c2da4d371f616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity 2DGame Basic [05][Resources]/Explosion.png using Guid(c30dccad6a813644fb7c2da4d371f616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dadaf215ddb365182fe0a0d3e6220f5e') in 0.021476 seconds 
-  Import took 0.025768 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000316 seconds.
-  path: Assets/Unity 2DGame Basic [05][Resources]/GameOverButtonReturn.png
-  artifactKey: Guid(442be6aa14afd9842b6bba2da9043b43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity 2DGame Basic [05][Resources]/GameOverButtonReturn.png using Guid(442be6aa14afd9842b6bba2da9043b43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c772183131376e1bac09b5a0583b9ed1') in 0.037379 seconds 
-  Import took 0.042884 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000361 seconds.
-  path: Assets/Unity 2DGame Basic [05][Resources]/GameOverBackground.png
-  artifactKey: Guid(860d3e5a89cb9d147b53047d72ba8f6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity 2DGame Basic [05][Resources]/GameOverBackground.png using Guid(860d3e5a89cb9d147b53047d72ba8f6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '240442a2f1bdcce5cd12333ea2b81702') in 0.028741 seconds 
-  Import took 0.032522 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000367 seconds.
-  path: Assets/Unity 2DGame Basic [05][Resources]/Enemy_Idle.png
-  artifactKey: Guid(ca870852a838044498c21a156200942c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity 2DGame Basic [05][Resources]/Enemy_Idle.png using Guid(ca870852a838044498c21a156200942c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c53049ade3b87c070045412362048f4') in 0.020918 seconds 
-  Import took 0.025839 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000617 seconds.
-  path: Assets/Unity 2DGame Basic [05][Resources]/Player_Die.png
-  artifactKey: Guid(f09f80ff90634f94a8d2b7415788dfa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity 2DGame Basic [05][Resources]/Player_Die.png using Guid(f09f80ff90634f94a8d2b7415788dfa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7736e7660061746ac43ea6c422ffc88') in 0.022162 seconds 
-  Import took 0.026896 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000265 seconds.
-  path: Assets/Unity 2DGame Basic [05][Resources]
-  artifactKey: Guid(9869d3ab56ebbb04fad58177a6796f19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity 2DGame Basic [05][Resources] using Guid(9869d3ab56ebbb04fad58177a6796f19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9faa07f626a8bed9eb600c7fad5bc93') in 0.012899 seconds 
-  Import took 0.016544 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000352 seconds.
-  path: Assets/Unity 2DGame Basic [05][Resources]/IntroBackground.png
-  artifactKey: Guid(c78b41b19dc577a47ae8763a9282240d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity 2DGame Basic [05][Resources]/IntroBackground.png using Guid(c78b41b19dc577a47ae8763a9282240d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ad0e0c77db757337422382f14404683') in 0.026633 seconds 
-  Import took 0.031043 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000589 seconds.
-  path: Assets/Unity 2DGame Basic [05][Resources]/PlayerBullet.png
-  artifactKey: Guid(dba8e42b0a411444e80b9ecd5797dd21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity 2DGame Basic [05][Resources]/PlayerBullet.png using Guid(dba8e42b0a411444e80b9ecd5797dd21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20b57b6228265a7c90884bcd87b0869e') in 0.030260 seconds 
-  Import took 0.035448 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000302 seconds.
-  path: Assets/Unity 2DGame Basic [05][Resources]/Player_Idle.png
-  artifactKey: Guid(67dafcea247bd0c4abd45f079a4ca98c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity 2DGame Basic [05][Resources]/Player_Idle.png using Guid(67dafcea247bd0c4abd45f079a4ca98c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a81d17e38f7f77d121720fec2b38a39') in 0.022682 seconds 
-  Import took 0.027463 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000352 seconds.
-  path: Assets/Unity 2DGame Basic [05][Resources]/Alertline.png
-  artifactKey: Guid(ea8df11f7a5c878498cb626f1ba06c4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity 2DGame Basic [05][Resources]/Alertline.png using Guid(ea8df11f7a5c878498cb626f1ba06c4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a45375bbd673705e2fc01b63ec3a467f') in 0.024276 seconds 
-  Import took 0.029041 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000354 seconds.
-  path: Assets/Unity 2DGame Basic [05][Resources]/Background.png
-  artifactKey: Guid(40d835bf565bb0245bb91df5f21331a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity 2DGame Basic [05][Resources]/Background.png using Guid(40d835bf565bb0245bb91df5f21331a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd38a88786d77700db50123934f63d251') in 0.024158 seconds 
-  Import took 0.027504 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000473 seconds.
-  path: Assets/Unity 2DGame Basic [05][Resources]/PlayerBoom_Idle.png
-  artifactKey: Guid(b5a8c821a2ddf044dbfbd5861837aa40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity 2DGame Basic [05][Resources]/PlayerBoom_Idle.png using Guid(b5a8c821a2ddf044dbfbd5861837aa40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6a6219a81434858126cb69814c9a1e9') in 0.027991 seconds 
-  Import took 0.031649 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000667 seconds.
-  path: Assets/Unity 2DGame Basic [05][Resources]/IntroButtonStart.png
-  artifactKey: Guid(d4f174679916c6f4bbf5caf866695180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity 2DGame Basic [05][Resources]/IntroButtonStart.png using Guid(d4f174679916c6f4bbf5caf866695180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f663c6c6efaed09837f8252fc8514aff') in 0.031237 seconds 
-  Import took 0.037109 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.900760 seconds.
-  path: Assets/Unity 2DGame Basic [05][Resources]/Player_Die.png
-  artifactKey: Guid(f09f80ff90634f94a8d2b7415788dfa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity 2DGame Basic [05][Resources]/Player_Die.png using Guid(f09f80ff90634f94a8d2b7415788dfa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7736e7660061746ac43ea6c422ffc88') in 0.037680 seconds 
-  Import took 0.046160 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3280.462696 seconds.
   path: Assets/Unity 2DGame Basic [05][Resources]/New Sprite Atlas.spriteatlas
   artifactKey: Guid(2eddd51acbe480648ab2b1d19ce4208f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity 2DGame Basic [05][Resources]/New Sprite Atlas.spriteatlas using Guid(2eddd51acbe480648ab2b1d19ce4208f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7430402345c48da7d6534bce74f6eaf9') in 0.024115 seconds 
-  Import took 0.031582 seconds .
+Start importing Assets/Unity 2DGame Basic [05][Resources]/New Sprite Atlas.spriteatlas using Guid(2eddd51acbe480648ab2b1d19ce4208f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca648d1dd475af64b49a0f53be1223d2') in 0.031493 seconds 
+  Import took 0.034305 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 180.256478 seconds.
+  path: Assets/Unity 2DGame Basic [05][Resources]/Alertline.png
+  artifactKey: Guid(ea8df11f7a5c878498cb626f1ba06c4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity 2DGame Basic [05][Resources]/Alertline.png using Guid(ea8df11f7a5c878498cb626f1ba06c4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ec7cc486683a249bf5fda096e054d10') in 0.066679 seconds 
+  Import took 0.070167 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Unity 2DGame Basic [05][Resources]/PlayerLifeUI.png
+  artifactKey: Guid(7c9a849cb50a79b49b5f7b76f18722dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity 2DGame Basic [05][Resources]/PlayerLifeUI.png using Guid(7c9a849cb50a79b49b5f7b76f18722dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd7a66f891e3d33179a2061516d6f013') in 0.030577 seconds 
+  Import took 0.033330 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Unity 2DGame Basic [05][Resources]/Meteorite.png
+  artifactKey: Guid(7c5b4290348dbfd48aa1cb5433d44d38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity 2DGame Basic [05][Resources]/Meteorite.png using Guid(7c5b4290348dbfd48aa1cb5433d44d38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '652224d91e7ded6113a596c8330b8eeb') in 0.045460 seconds 
+  Import took 0.048363 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Unity 2DGame Basic [05][Resources]/Explosion.png
+  artifactKey: Guid(c30dccad6a813644fb7c2da4d371f616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity 2DGame Basic [05][Resources]/Explosion.png using Guid(c30dccad6a813644fb7c2da4d371f616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d753a5b65b6c8680b09ae5057bc642a') in 0.015774 seconds 
+  Import took 0.018689 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Unity 2DGame Basic [05][Resources]/GameOverButtonReturn.png
+  artifactKey: Guid(442be6aa14afd9842b6bba2da9043b43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity 2DGame Basic [05][Resources]/GameOverButtonReturn.png using Guid(442be6aa14afd9842b6bba2da9043b43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e774c81798231c3743ebd39df67f1a5f') in 0.017979 seconds 
+  Import took 0.021182 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Unity 2DGame Basic [05][Resources]/GameOverBackground.png
+  artifactKey: Guid(860d3e5a89cb9d147b53047d72ba8f6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity 2DGame Basic [05][Resources]/GameOverBackground.png using Guid(860d3e5a89cb9d147b53047d72ba8f6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6046d60de796aeb13313393cc2fa1f1a') in 0.049414 seconds 
+  Import took 0.052291 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Unity 2DGame Basic [05][Resources]/Enemy_Idle.png
+  artifactKey: Guid(ca870852a838044498c21a156200942c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity 2DGame Basic [05][Resources]/Enemy_Idle.png using Guid(ca870852a838044498c21a156200942c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23ff202beee30afdc472c8b13ae86bf2') in 0.028086 seconds 
+  Import took 0.030879 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Unity 2DGame Basic [05][Resources]/Player_Die.png
+  artifactKey: Guid(f09f80ff90634f94a8d2b7415788dfa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity 2DGame Basic [05][Resources]/Player_Die.png using Guid(f09f80ff90634f94a8d2b7415788dfa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1a449b78bd6e564490fa823ee41a4dd') in 0.010741 seconds 
+  Import took 0.013647 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Unity 2DGame Basic [05][Resources]/Player_Idle.png
+  artifactKey: Guid(67dafcea247bd0c4abd45f079a4ca98c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity 2DGame Basic [05][Resources]/Player_Idle.png using Guid(67dafcea247bd0c4abd45f079a4ca98c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9b484b1367de13e96f56a7982b16d91') in 0.012026 seconds 
+  Import took 0.015042 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Unity 2DGame Basic [05][Resources]/IntroBackground.png
+  artifactKey: Guid(c78b41b19dc577a47ae8763a9282240d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity 2DGame Basic [05][Resources]/IntroBackground.png using Guid(c78b41b19dc577a47ae8763a9282240d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a6652b7825c98165d96cd74d7ec3d6c') in 0.013063 seconds 
+  Import took 0.016019 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Unity 2DGame Basic [05][Resources]/PlayerBullet.png
+  artifactKey: Guid(dba8e42b0a411444e80b9ecd5797dd21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity 2DGame Basic [05][Resources]/PlayerBullet.png using Guid(dba8e42b0a411444e80b9ecd5797dd21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9ab4bfb49e95ef801ecdf57c839a43c') in 0.011743 seconds 
+  Import took 0.014597 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Unity 2DGame Basic [05][Resources]/Background.png
+  artifactKey: Guid(40d835bf565bb0245bb91df5f21331a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity 2DGame Basic [05][Resources]/Background.png using Guid(40d835bf565bb0245bb91df5f21331a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a688d9e2f831c8496a5f121b66188bf2') in 0.014151 seconds 
+  Import took 0.017129 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Unity 2DGame Basic [05][Resources]/PlayerBoom_Idle.png
+  artifactKey: Guid(b5a8c821a2ddf044dbfbd5861837aa40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity 2DGame Basic [05][Resources]/PlayerBoom_Idle.png using Guid(b5a8c821a2ddf044dbfbd5861837aa40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33880c4025ff4027ea09363ac99d1763') in 0.010738 seconds 
+  Import took 0.013554 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Unity 2DGame Basic [05][Resources]/IntroButtonStart.png
+  artifactKey: Guid(d4f174679916c6f4bbf5caf866695180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity 2DGame Basic [05][Resources]/IntroButtonStart.png using Guid(d4f174679916c6f4bbf5caf866695180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26583f4ba2f67e201fae6201d56cd111') in 0.011464 seconds 
+  Import took 0.014252 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1050.431360 seconds.
+  path: Assets/Unity 2DGame Basic [05][Resources]/New Sprite Atlas.spriteatlas
+  artifactKey: Guid(2eddd51acbe480648ab2b1d19ce4208f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity 2DGame Basic [05][Resources]/New Sprite Atlas.spriteatlas using Guid(2eddd51acbe480648ab2b1d19ce4208f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b7e707ecdff085cdaabf17ead25eb75') in 0.006133 seconds 
+  Import took 0.009723 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004749 seconds.
+  path: Assets/Unity 2DGame Basic [05][Resources]/New Sprite Atlas.spriteatlas
+  artifactKey: Guid(2eddd51acbe480648ab2b1d19ce4208f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity 2DGame Basic [05][Resources]/New Sprite Atlas.spriteatlas using Guid(2eddd51acbe480648ab2b1d19ce4208f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b7e707ecdff085cdaabf17ead25eb75') in 0.002352 seconds 
+  Import took 0.005219 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.016715 seconds.
+Registered in 0.004187 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.45 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.866 seconds
+- Completed reload, in  0.921 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1868ms)
-		BeginReloadAssembly (341ms)
+	ReloadAssembly (922ms)
+		BeginReloadAssembly (104ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (35ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (128ms)
-		EndReloadAssembly (1387ms)
-			LoadAssemblies (221ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (762ms)
+			LoadAssemblies (86ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (467ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (67ms)
-			SetupLoadedEditorAssemblies (491ms)
+			SetupTypeCache (259ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (288ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
-				SetLoadedEditorAssemblies (1ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (148ms)
-				ProcessInitializeOnLoadAttributes (311ms)
-				ProcessInitializeOnLoadMethodAttributes (8ms)
-				AfterProcessingInitializeOnLoad (14ms)
+				BeforeProcessingInitializeOnLoad (86ms)
+				ProcessInitializeOnLoadAttributes (184ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (15ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.10 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.42 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2079 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 95.8 MB.
 System memory in use after: 95.8 MB.
 
-Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2551.
-Total: 5.717500 ms (FindLiveObjects: 0.753200 ms CreateObjectMapping: 0.080700 ms MarkObjects: 4.477100 ms  DeleteObjects: 0.403000 ms)
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2551.
+Total: 2.138600 ms (FindLiveObjects: 0.209200 ms CreateObjectMapping: 0.087300 ms MarkObjects: 1.747200 ms  DeleteObjects: 0.094200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1377.243551 seconds.
+  path: Assets/Unity 2DGame Basic [05][Resources]/Player_Idle.png
+  artifactKey: Guid(67dafcea247bd0c4abd45f079a4ca98c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity 2DGame Basic [05][Resources]/Player_Idle.png using Guid(67dafcea247bd0c4abd45f079a4ca98c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '966c7cca33365bd2b635c7d3db2e10d7') in 0.039182 seconds 
+  Import took 0.042975 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 928.610312 seconds.
+  path: Assets/Unity 2DGame Basic [05][Resources]/Square.png
+  artifactKey: Guid(5a987f8be922fd0468cd97c8ee795a43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity 2DGame Basic [05][Resources]/Square.png using Guid(5a987f8be922fd0468cd97c8ee795a43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07df6500e5f5716910889a0a46be0a76') in 0.028134 seconds 
+  Import took 0.031702 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 85.177951 seconds.
+  path: Assets/Unity 2DGame Basic [05][Resources]/Square.png
+  artifactKey: Guid(5a987f8be922fd0468cd97c8ee795a43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity 2DGame Basic [05][Resources]/Square.png using Guid(5a987f8be922fd0468cd97c8ee795a43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b53903347eaff965f591e5b6bb7de813') in 0.013773 seconds 
+  Import took 0.016820 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.809934 seconds.
+  path: Assets/Unity 2DGame Basic [05][Resources]/Square.png
+  artifactKey: Guid(5a987f8be922fd0468cd97c8ee795a43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity 2DGame Basic [05][Resources]/Square.png using Guid(5a987f8be922fd0468cd97c8ee795a43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38b56a8c353752864127f1de7e432577') in 0.022461 seconds 
+  Import took 0.025424 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.248169 seconds.
+  path: Assets/Unity 2DGame Basic [05][Resources]
+  artifactKey: Guid(9869d3ab56ebbb04fad58177a6796f19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity 2DGame Basic [05][Resources] using Guid(9869d3ab56ebbb04fad58177a6796f19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '329354606f9971422a96d04ded326530') in 0.004680 seconds 
+  Import took 0.007691 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.132315 seconds.
+  path: Assets/Unity 2DGame Basic [05][Resources]/Square.png
+  artifactKey: Guid(18df769786763284eb9f11ca491dcc16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity 2DGame Basic [05][Resources]/Square.png using Guid(18df769786763284eb9f11ca491dcc16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99a8e763a214266f6e5325b187ae9941') in 0.014490 seconds 
+  Import took 0.017464 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.717591 seconds.
+  path: Assets/Unity 2DGame Basic [05][Resources]/Square.png
+  artifactKey: Guid(18df769786763284eb9f11ca491dcc16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity 2DGame Basic [05][Resources]/Square.png using Guid(18df769786763284eb9f11ca491dcc16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e0ea087a5002521a0be3e8c6d0488b7') in 0.021763 seconds 
+  Import took 0.025351 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.256048 seconds.
+  path: Assets/Unity 2DGame Basic [05][Resources]/Sprite Shape Profile.asset
+  artifactKey: Guid(46693ff337edc924591213196fd996d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity 2DGame Basic [05][Resources]/Sprite Shape Profile.asset using Guid(46693ff337edc924591213196fd996d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44d76a4174ace42939a02d34d344bed3') in 0.010769 seconds 
+  Import took 0.013931 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.464722 seconds.
+  path: Assets/Unity 2DGame Basic [05][Resources]/Square.png
+  artifactKey: Guid(f70c106be9531fd4d996760865a26ccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity 2DGame Basic [05][Resources]/Square.png using Guid(f70c106be9531fd4d996760865a26ccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a432f7b5adead3959417706d951f167a') in 0.008280 seconds 
+  Import took 0.011398 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.062266 seconds.
+  path: Assets/Unity 2DGame Basic [05][Resources]/Square.png
+  artifactKey: Guid(f70c106be9531fd4d996760865a26ccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity 2DGame Basic [05][Resources]/Square.png using Guid(f70c106be9531fd4d996760865a26ccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '983a8416cdf8c3657a343e678d35c10e') in 0.013016 seconds 
+  Import took 0.016021 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.663166 seconds.
+  path: Assets/Unity 2DGame Basic [05][Resources]/Square.png
+  artifactKey: Guid(f70c106be9531fd4d996760865a26ccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity 2DGame Basic [05][Resources]/Square.png using Guid(f70c106be9531fd4d996760865a26ccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fd96bdb4fa15f2bcfe063481f97a73c') in 0.027752 seconds 
+  Import took 0.031070 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 134.011330 seconds.
+  path: Assets/Unity 2DGame Basic [05][Resources]/Square.png
+  artifactKey: Guid(f70c106be9531fd4d996760865a26ccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity 2DGame Basic [05][Resources]/Square.png using Guid(f70c106be9531fd4d996760865a26ccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef578894cee7a5ffb0bba03ea4b518fd') in 0.014386 seconds 
+  Import took 0.017470 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.532413 seconds.
+  path: Assets/Unity 2DGame Basic [05][Resources]/Square.png
+  artifactKey: Guid(d58ae9830de64d64c8b88cd3febbb093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity 2DGame Basic [05][Resources]/Square.png using Guid(d58ae9830de64d64c8b88cd3febbb093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e26f8971bb8969eaec1a996a7b109e9') in 0.009181 seconds 
+  Import took 0.012249 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.208515 seconds.
+  path: Assets/Unity 2DGame Basic [05][Resources]/Square.png
+  artifactKey: Guid(d58ae9830de64d64c8b88cd3febbb093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity 2DGame Basic [05][Resources]/Square.png using Guid(d58ae9830de64d64c8b88cd3febbb093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd731c8d67330a92786a88cc6d4694bfe') in 0.021853 seconds 
+  Import took 0.024911 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 38.304991 seconds.
+  path: Assets/Unity 2DGame Basic [05][Resources]/Square.png
+  artifactKey: Guid(d58ae9830de64d64c8b88cd3febbb093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity 2DGame Basic [05][Resources]/Square.png using Guid(d58ae9830de64d64c8b88cd3febbb093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41800318bc66a59761ae07630b46da88') in 0.024531 seconds 
+  Import took 0.027857 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.198977 seconds.
+  path: Assets/Unity 2DGame Basic [05][Resources]/Square.png
+  artifactKey: Guid(d58ae9830de64d64c8b88cd3febbb093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity 2DGame Basic [05][Resources]/Square.png using Guid(d58ae9830de64d64c8b88cd3febbb093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'feea57659aa14ac627a579dc257f38fe') in 0.012989 seconds 
+  Import took 0.016014 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1158.155859 seconds.
+  path: Assets/Unity 2DGame Basic [05][Resources]/HexagonFlat-Top.png
+  artifactKey: Guid(bf92cf23861887242b2426ae32487155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity 2DGame Basic [05][Resources]/HexagonFlat-Top.png using Guid(bf92cf23861887242b2426ae32487155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f091a93dca03b9a0de33ab08cc837a49') in 0.024964 seconds 
+  Import took 0.028493 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 97.616924 seconds.
+  path: Assets/Unity 2DGame Basic [05][Resources]/Triangle.png
+  artifactKey: Guid(59084c9e4c2547141b5a97260fff626e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity 2DGame Basic [05][Resources]/Triangle.png using Guid(59084c9e4c2547141b5a97260fff626e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d29ab29909135df23057f707dbdbb5c') in 0.028081 seconds 
+  Import took 0.031114 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.691939 seconds.
+  path: Assets/Unity 2DGame Basic [05][Resources]/Triangle.png
+  artifactKey: Guid(59084c9e4c2547141b5a97260fff626e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity 2DGame Basic [05][Resources]/Triangle.png using Guid(59084c9e4c2547141b5a97260fff626e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e1e257450c76543b21af25409931926') in 0.007566 seconds 
+  Import took 0.010635 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.886447 seconds.
+  path: Assets/Unity 2DGame Basic [05][Resources]/Triangle.png
+  artifactKey: Guid(59084c9e4c2547141b5a97260fff626e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity 2DGame Basic [05][Resources]/Triangle.png using Guid(59084c9e4c2547141b5a97260fff626e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6aaea8387d7f80d62abd738aed02bcb7') in 0.029455 seconds 
+  Import took 0.032625 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.079880 seconds.
+  path: Assets/Unity 2DGame Basic [05][Resources]/HexagonPointed-Top.png
+  artifactKey: Guid(e49d1ca165557874b9568f1952fd1558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity 2DGame Basic [05][Resources]/HexagonPointed-Top.png using Guid(e49d1ca165557874b9568f1952fd1558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5662f2ec2d39ab05aaa09c1f846164be') in 0.011257 seconds 
+  Import took 0.014327 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.274099 seconds.
+  path: Assets/Unity 2DGame Basic [05][Resources]/Circle.png
+  artifactKey: Guid(d58ae9830de64d64c8b88cd3febbb093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity 2DGame Basic [05][Resources]/Circle.png using Guid(d58ae9830de64d64c8b88cd3febbb093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22a52bf61bd3501107fc4289813c334b') in 0.031634 seconds 
+  Import took 0.034763 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 652.073186 seconds.
+  path: Assets/Unity 2DGame Basic [05][Resources]/Player_Idle.png
+  artifactKey: Guid(67dafcea247bd0c4abd45f079a4ca98c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity 2DGame Basic [05][Resources]/Player_Idle.png using Guid(67dafcea247bd0c4abd45f079a4ca98c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63f8a6e8907fe3fe83c1a007a06ba3dc') in 0.010140 seconds 
+  Import took 0.013781 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 304.491621 seconds.
+  path: Assets/Unity 2DGame Basic [05][Resources]/Player_Idle.png
+  artifactKey: Guid(67dafcea247bd0c4abd45f079a4ca98c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity 2DGame Basic [05][Resources]/Player_Idle.png using Guid(67dafcea247bd0c4abd45f079a4ca98c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23f2dfcff37d3a6cdfeaff95f58af379') in 0.025583 seconds 
+  Import took 0.029185 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 219.871912 seconds.
+  path: Assets/Unity 2DGame Basic [05][Resources]/New Animator Controller.controller
+  artifactKey: Guid(20aeffcb42527eb48befa76dfb177c74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity 2DGame Basic [05][Resources]/New Animator Controller.controller using Guid(20aeffcb42527eb48befa76dfb177c74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29e6aca71b1566559f8b1c590e56f04e') in 0.009001 seconds 
+  Import took 0.012625 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.725227 seconds.
+  path: Assets/Unity 2DGame Basic [05][Resources]/PlayerAnimator.controller
+  artifactKey: Guid(20aeffcb42527eb48befa76dfb177c74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity 2DGame Basic [05][Resources]/PlayerAnimator.controller using Guid(20aeffcb42527eb48befa76dfb177c74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ac273814c075842a56d5665055d7c9a') in 0.005324 seconds 
+  Import took 0.008264 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 94.346563 seconds.
+  path: Assets/Unity 2DGame Basic [05][Resources]/PlayerIdle.anim
+  artifactKey: Guid(ea2047450b46d4d419e55c531a7b286e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity 2DGame Basic [05][Resources]/PlayerIdle.anim using Guid(ea2047450b46d4d419e55c531a7b286e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7818360f2b9c28f180f84b7dee647761') in 0.008540 seconds 
+  Import took 0.011619 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004093 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.924 seconds
+Domain Reload Profiling:
+	ReloadAssembly (925ms)
+		BeginReloadAssembly (104ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (763ms)
+			LoadAssemblies (90ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (263ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (281ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (83ms)
+				ProcessInitializeOnLoadAttributes (181ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2079 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.9 MB.
+System memory in use after: 95.9 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2562.
+Total: 1.933100 ms (FindLiveObjects: 0.188100 ms CreateObjectMapping: 0.076500 ms MarkObjects: 1.579500 ms  DeleteObjects: 0.088300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -323,48 +595,160 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.016664 seconds.
+Registered in 0.003917 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.95 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.41 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.493 seconds
+- Completed reload, in  0.888 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2494ms)
-		BeginReloadAssembly (282ms)
+	ReloadAssembly (889ms)
+		BeginReloadAssembly (98ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (15ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (69ms)
-		EndReloadAssembly (2052ms)
-			LoadAssemblies (281ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (735ms)
+			LoadAssemblies (86ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (699ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (107ms)
-			SetupLoadedEditorAssemblies (745ms)
+			SetupTypeCache (253ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (271ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (12ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (241ms)
-				ProcessInitializeOnLoadAttributes (452ms)
-				ProcessInitializeOnLoadMethodAttributes (14ms)
-				AfterProcessingInitializeOnLoad (24ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (81ms)
+				ProcessInitializeOnLoadAttributes (172ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (24ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.12 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.39 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2079 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 95.9 MB.
+System memory in use before: 96.0 MB.
 System memory in use after: 95.9 MB.
 
-Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2555.
-Total: 5.089300 ms (FindLiveObjects: 0.365100 ms CreateObjectMapping: 0.132800 ms MarkObjects: 4.379700 ms  DeleteObjects: 0.209000 ms)
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2566.
+Total: 1.918000 ms (FindLiveObjects: 0.169000 ms CreateObjectMapping: 0.071300 ms MarkObjects: 1.587200 ms  DeleteObjects: 0.089800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003909 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.895 seconds
+Domain Reload Profiling:
+	ReloadAssembly (896ms)
+		BeginReloadAssembly (101ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (739ms)
+			LoadAssemblies (88ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (254ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (273ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (83ms)
+				ProcessInitializeOnLoadAttributes (173ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2079 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.0 MB.
+System memory in use after: 96.0 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2570.
+Total: 1.935700 ms (FindLiveObjects: 0.176200 ms CreateObjectMapping: 0.079000 ms MarkObjects: 1.589100 ms  DeleteObjects: 0.090500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005125 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.977 seconds
+Domain Reload Profiling:
+	ReloadAssembly (978ms)
+		BeginReloadAssembly (108ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (809ms)
+			LoadAssemblies (96ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (280ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (300ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (90ms)
+				ProcessInitializeOnLoadAttributes (191ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.44 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2079 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.0 MB.
+System memory in use after: 96.0 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2574.
+Total: 2.155800 ms (FindLiveObjects: 0.228300 ms CreateObjectMapping: 0.109800 ms MarkObjects: 1.718600 ms  DeleteObjects: 0.097900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 

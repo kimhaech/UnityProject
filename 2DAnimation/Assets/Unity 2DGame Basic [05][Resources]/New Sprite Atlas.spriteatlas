@@ -45,7 +45,7 @@ SpriteAtlas:
     - {fileID: 2800000, guid: b5a8c821a2ddf044dbfbd5861837aa40, type: 3}
     - {fileID: 2800000, guid: dba8e42b0a411444e80b9ecd5797dd21, type: 3}
     - {fileID: 2800000, guid: 7c9a849cb50a79b49b5f7b76f18722dc, type: 3}
-    totalSpriteSurfaceArea: 1180499
+    totalSpriteSurfaceArea: 1173594
     bindAsDefault: 1
     isAtlasV2: 0
     cachedData: {fileID: 0}
@@ -66,7 +66,13 @@ SpriteAtlas:
   - {fileID: 21300000, guid: c30dccad6a813644fb7c2da4d371f616, type: 3}
   - {fileID: 21300000, guid: ea8df11f7a5c878498cb626f1ba06c4b, type: 3}
   - {fileID: 21300000, guid: 40d835bf565bb0245bb91df5f21331a9, type: 3}
-  - {fileID: 21300000, guid: f09f80ff90634f94a8d2b7415788dfa5, type: 3}
+  - {fileID: 1946927465861060226, guid: f09f80ff90634f94a8d2b7415788dfa5, type: 3}
+  - {fileID: 3584226132089610693, guid: f09f80ff90634f94a8d2b7415788dfa5, type: 3}
+  - {fileID: -8311989477641001193, guid: f09f80ff90634f94a8d2b7415788dfa5, type: 3}
+  - {fileID: 2405681977902352581, guid: f09f80ff90634f94a8d2b7415788dfa5, type: 3}
+  - {fileID: 4013463443799664908, guid: f09f80ff90634f94a8d2b7415788dfa5, type: 3}
+  - {fileID: -3826548820387394334, guid: f09f80ff90634f94a8d2b7415788dfa5, type: 3}
+  - {fileID: -7930539339726357277, guid: f09f80ff90634f94a8d2b7415788dfa5, type: 3}
   m_PackedSpriteNamesToIndex:
   - Meteorite
   - PlayerBoom_Idle
@@ -83,7 +89,13 @@ SpriteAtlas:
   - Explosion
   - Alertline
   - Background
-  - Player_Die
+  - Player_Die_2
+  - Player_Die_3
+  - Player_Die_0
+  - Player_Die_1
+  - Player_Die_6
+  - Player_Die_4
+  - Player_Die_5
   m_RenderDataMap: {}
   m_Tag: New Sprite Atlas
   m_IsVariant: 0
