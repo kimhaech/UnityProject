@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: player_idle
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: 31dbce09f41f70040805b1192244067c, type: 3}
+    totalSpriteSurfaceArea: 118667
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 3690559776813112666, guid: 31dbce09f41f70040805b1192244067c, type: 3}
+  - {fileID: -5115618752126089108, guid: 31dbce09f41f70040805b1192244067c, type: 3}
+  - {fileID: -5050664382621690000, guid: 31dbce09f41f70040805b1192244067c, type: 3}
+  - {fileID: -5937766766644145194, guid: 31dbce09f41f70040805b1192244067c, type: 3}
+  - {fileID: 6213080392227812279, guid: 31dbce09f41f70040805b1192244067c, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - player_idle_4
+  - player_idle_0
+  - player_idle_1
+  - player_idle_2
+  - player_idle_3
+  m_RenderDataMap: {}
+  m_Tag: player_idle
+  m_IsVariant: 0
