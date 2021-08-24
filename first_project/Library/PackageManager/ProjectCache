@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637652223659676767
-    m_Hash: 2274089048
+      ticks: 637652114280718555
+    m_Hash: 1845693436
   m_LockFileStatus:
     m_FilePath: C:/Users/epicl/Documents/GitHub/UnityProject/first_project/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637652223659686741
-    m_Hash: 1317913032
+      ticks: 637652114539060655
+    m_Hash: 1383368053
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
@@ -77,6 +77,8 @@ m_PackageAssets:
         - 3.2.5
         - 3.2.6
         - 3.2.9
+        - 3.2.10
+        - 3.2.11
         - 4.0.0
         - 4.0.1
         - 4.1.0
@@ -457,6 +459,7 @@ m_PackageAssets:
         - 3.0.14
         - 3.0.15
         - 3.0.16
+        - 3.0.17
         - 4.0.0
         - 4.0.1
         - 4.0.2
@@ -1015,9 +1018,11 @@ m_PackageAssets:
         - 1.1.24
         - 1.1.26
         - 1.1.27
+        - 1.1.29
         compatible:
         - 1.1.27
-        verified: 1.1.27
+        - 1.1.29
+        verified: 1.1.29
       dependencies:
       - name: com.unity.ext.nunit
         version: 1.0.6
@@ -1133,6 +1138,7 @@ m_PackageAssets:
         - 1.5.4
         - 1.5.5
         - 1.5.6
+        - 1.6.0-preview.1
         - 2.0.0
         - 2.0.1-preview.1
         - 2.0.1
@@ -1154,6 +1160,7 @@ m_PackageAssets:
         - 2.1.4
         - 2.1.5
         - 2.1.6
+        - 2.2.0-preview.1
         - 3.0.0-preview.1
         - 3.0.0-preview.3
         - 3.0.0-preview.4
@@ -1171,8 +1178,10 @@ m_PackageAssets:
         - 3.0.4
         - 3.0.5
         - 3.0.6
+        - 3.2.0-pre.1
         compatible:
         - 3.0.6
+        - 3.2.0-pre.1
         verified: 3.0.6
       dependencies:
       - name: com.unity.ugui
@@ -1295,6 +1304,7 @@ m_PackageAssets:
         - 1.6.0-pre.4
         - 1.6.0-pre.5
         - 1.6.1
+        - 1.6.2
         compatible:
         - 1.4.8
         - 1.5.0-pre.2
@@ -1315,6 +1325,7 @@ m_PackageAssets:
         - 1.6.0-pre.4
         - 1.6.0-pre.5
         - 1.6.1
+        - 1.6.2
         verified: 1.4.8
       dependencies:
       - name: com.unity.modules.director
