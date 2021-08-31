@@ -136,3 +136,20 @@ Received Import Request.
 Start importing Assets/Scenes/player/player_temp.png using Guid(96009de1c2b783642a4721a0da6cd37a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fd72976afda2e34373bb213904e9822') in 0.168117 seconds 
   Import took 0.171061 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 898.895704 seconds.
+  path: Assets/Scenes/player/player_temp.png
+  artifactKey: Guid(96009de1c2b783642a4721a0da6cd37a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/player/player_temp.png using Guid(96009de1c2b783642a4721a0da6cd37a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b5132bae35a313dab4f3f34a7900d0c') in 0.066111 seconds 
+  Import took 0.070443 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.727712 seconds.
+  path: Assets/Scenes/player/player_temp.png
+  artifactKey: Guid(96009de1c2b783642a4721a0da6cd37a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/player/player_temp.png using Guid(96009de1c2b783642a4721a0da6cd37a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5e992846f4b2e89d8ec42beaf66e9d5') in 0.068421 seconds 
+  Import took 0.071451 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
