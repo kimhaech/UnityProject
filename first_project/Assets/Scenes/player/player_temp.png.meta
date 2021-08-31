@@ -4,37 +4,37 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: -1995923054530578039
-    second: player_temp_0
+    second: player_head
   - first:
       213: 8378186624588837137
-    second: player_temp_1
+    second: player_left_upperarm
   - first:
       213: 8320464535722488966
-    second: player_temp_2
+    second: player_body
   - first:
       213: -2623646951917829358
-    second: player_temp_3
+    second: player_right_upperarm
   - first:
       213: -2537805987844707629
-    second: player_temp_4
+    second: player_left_forearm
   - first:
       213: -3999261289778234067
-    second: player_temp_5
+    second: player_left_thigh
   - first:
       213: 8384639755496034945
-    second: player_temp_6
+    second: player_hip
   - first:
       213: 8001157508542813164
-    second: player_temp_7
+    second: player_right_thigh
   - first:
       213: -7161722632821519768
-    second: player_temp_8
+    second: player_right_forearm
   - first:
       213: 3545978751044896584
-    second: player_temp_9
+    second: player_left_calf
   - first:
       213: -5086466983711463146
-    second: player_temp_10
+    second: player_right_calf
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -124,11 +124,11 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: player_temp_0
+      name: player_head
       rect:
         serializedVersion: 2
         x: 283
-        y: 474
+        y: 475
         width: 87
         height: 82
       alignment: 0
@@ -385,7 +385,7 @@ TextureImporter:
         boneIndex[2]: 0
         boneIndex[3]: 0
     - serializedVersion: 2
-      name: player_temp_1
+      name: player_left_upperarm
       rect:
         serializedVersion: 2
         x: 165
@@ -636,7 +636,7 @@ TextureImporter:
         boneIndex[2]: 0
         boneIndex[3]: 0
     - serializedVersion: 2
-      name: player_temp_2
+      name: player_body
       rect:
         serializedVersion: 2
         x: 275
@@ -1012,11 +1012,11 @@ TextureImporter:
         boneIndex[2]: 0
         boneIndex[3]: 0
     - serializedVersion: 2
-      name: player_temp_3
+      name: player_right_upperarm
       rect:
         serializedVersion: 2
-        x: 417
-        y: 357
+        x: 418
+        y: 358
         width: 70
         height: 106
       alignment: 0
@@ -1263,7 +1263,7 @@ TextureImporter:
         boneIndex[2]: 0
         boneIndex[3]: 0
     - serializedVersion: 2
-      name: player_temp_4
+      name: player_left_forearm
       rect:
         serializedVersion: 2
         x: 158
@@ -1524,7 +1524,7 @@ TextureImporter:
         boneIndex[2]: 0
         boneIndex[3]: 0
     - serializedVersion: 2
-      name: player_temp_5
+      name: player_left_thigh
       rect:
         serializedVersion: 2
         x: 237
@@ -1795,7 +1795,7 @@ TextureImporter:
         boneIndex[2]: 0
         boneIndex[3]: 0
     - serializedVersion: 2
-      name: player_temp_6
+      name: player_hip
       rect:
         serializedVersion: 2
         x: 277
@@ -2166,7 +2166,7 @@ TextureImporter:
         boneIndex[2]: 0
         boneIndex[3]: 0
     - serializedVersion: 2
-      name: player_temp_7
+      name: player_right_thigh
       rect:
         serializedVersion: 2
         x: 368
@@ -2427,7 +2427,7 @@ TextureImporter:
         boneIndex[2]: 0
         boneIndex[3]: 0
     - serializedVersion: 2
-      name: player_temp_8
+      name: player_right_forearm
       rect:
         serializedVersion: 2
         x: 456
@@ -2688,7 +2688,7 @@ TextureImporter:
         boneIndex[2]: 0
         boneIndex[3]: 0
     - serializedVersion: 2
-      name: player_temp_9
+      name: player_left_calf
       rect:
         serializedVersion: 2
         x: 233
@@ -2949,7 +2949,7 @@ TextureImporter:
         boneIndex[2]: 0
         boneIndex[3]: 0
     - serializedVersion: 2
-      name: player_temp_10
+      name: player_right_calf
       rect:
         serializedVersion: 2
         x: 392
