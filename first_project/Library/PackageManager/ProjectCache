@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637658271749596737
-    m_Hash: 2965479835
+      ticks: 637659862262712166
+    m_Hash: 549950549
   m_LockFileStatus:
     m_FilePath: C:/Users/epicl/Documents/GitHub/UnityProject/first_project/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637658271749666548
-    m_Hash: 1850589166
+      ticks: 637659862262722167
+    m_Hash: 2388390253
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
