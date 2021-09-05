@@ -5,7 +5,7 @@ using UnityEngine;
 public class Movement2D : MonoBehaviour
 {
     [SerializeField]
-    private float speed = 5.0f; // 속도   
+    private float speed = 1.0f; // 속도   
     [SerializeField]
     private float jumpForce = 8.0f; // 점프 힘 (클수록 높이 점프한다)
     [SerializeField]
@@ -14,7 +14,7 @@ public class Movement2D : MonoBehaviour
 
     [SerializeField]
     private LayerMask groundLayer;  // 바닥 체크를 위한 충돌 레이어
-    private CapsuleCollider2D capsuleCollider2D; // 오브젝트의 충돌 범위 컴포넌트
+    private BoxCollider2D BoxCollider2D; // 오브젝트의 충돌 범위 컴포넌트
     private bool isGrounded;    // 바닥에 닿아있을 때 true이다
     private Vector3 footPosition;   // 발의 위치
 
@@ -22,12 +22,12 @@ public class Movement2D : MonoBehaviour
     private void Awake()
     {
         rigid2D = GetComponent<Rigidbody2D>();  // Rigidbody2D의 컴포넌트를 가진다.
-        capsuleCollider2D = GetComponent<CapsuleCollider2D>();  // CapsuleCollider2D의 컴포넌트를 가진다.
+        BoxCollider2D = GetComponent<BoxCollider2D>();  // CapsuleCollider2D의 컴포넌트를 가진다.
     }
     private void FixedUpdate()
     {
         // 플레이어 오브젝트의 Collider2D min, center, max 위치 정보
-        Bounds bounds = capsuleCollider2D.bounds;
+        Bounds bounds = BoxCollider2D.bounds;
         // 플레이어 발 위치 설정
         footPosition = new Vector2(bounds.center.x, bounds.min.y);
         // 발 위치에 원 생성, 원이 바닥과 닿아있으면 true
